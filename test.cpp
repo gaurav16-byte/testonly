@@ -27,7 +27,7 @@ int main() {
         return 1;
     }
 
-    const char* data = "this is a test";
+    const char* data = "this is just a test to make sure wh3th3r this C++ shit works or not. Let's hope the system doesn't crash.";
     DWORD bytesWritten;
 
     if (!WriteFile(hDevice, data, strlen(data), &bytesWritten, NULL)) {
